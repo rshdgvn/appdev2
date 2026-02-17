@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -6,7 +5,7 @@ export default function Login() {
   return (
     <View style={styles.container}>
       <Image 
-        source={require('../assets/login.png')} 
+        source={require('../../assets/login.png')} 
         style={styles.logo} 
       />
       
